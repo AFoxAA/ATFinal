@@ -1,0 +1,13 @@
+XPATH:
+  #Локаторы страницы входа:
+  LOCATOR_LOGIN_FIELD: //input[@type="text"]
+  LOCATOR_PASSWORD_FIELD: //input[@type="password"]
+  LOCATOR_ERROR_MESSAGE: //*[@id="app"]/main/div/div/div[2]/h2
+  #Локаторы страницы входа:
+  LOCATOR_ACCOUNT_NAME: //*[@id="app"]/main/nav/ul/li[3]
+  LOCATOR_BUTTON_ABOUT: //*[@id="app"]/main/nav/ul/li[1]
+  #Локаторы страницы About
+  LOCATOR_FORM_NAME: //h1[@class='svelte-z9xc0']
+CSS:
+  #Локаторы страницы входа:
+  LOCATOR_BUTTON_LOGIN: button

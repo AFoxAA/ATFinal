@@ -1,0 +1,25 @@
+#Выбор браузера:
+browser: chrome
+sleep: 3
+
+#Тестовый сайт:
+address: https://test-stand.gb.ru/login
+
+#Тестовые данные для API
+url_login: https://test-stand.gb.ru/gateway/login
+url_profile: https://test-stand.gb.ru/api/users/profile/24688
+
+
+#Пользовательские данные:
+login_valid: ANTA
+login_invalid: AN
+password_valid: 95ed42eb5c
+password_invalid: dsadfds
+
+#Название директории для сохранения скриншотов:
+directory_screenshot: screenshot
+
+#Тестовые данные для nikto
+option_1: -ssl
+option_2: -Tuning 4
+test_site: https://test-stand.gb.ru/
